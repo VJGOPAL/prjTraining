@@ -1,0 +1,38 @@
+variable "location" {
+  type    = string
+  default = "West Europe"
+}
+variable "resource_group_name" {
+  type    = string
+  defualt = "rg_vgo058"
+}
+variable "vnet" {
+  type    = string
+  defualt = "vnet_vgo058"
+}
+variable "subnet" {
+  type    = string
+  defualt = "subnet_vgo058"
+}
+variable "nic" {
+  type    = string
+  defualt = "nic_vgo058"
+}
+variable "vmname" {
+  type    = string
+  defualt = "vm_vgo058"
+}
+variable "os_disk_name" {
+  type    = string
+  defualt = "os_dsk_vgo058"
+}
+variable "admin_user" {
+  type    = string
+  defualt = "admin_vgo058"
+}
+variable "admin_pwd" {
+  defualt   = "Password1234!"
+  type      = string
+  sensitive = true
+}
+
